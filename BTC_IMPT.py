@@ -12,5 +12,5 @@ btc = btc[[col for col in columns_needed if col in btc.columns]]
 
 btc.to_csv('BTC_2023.csv', index=False)
 
-print("✅ BTC data downloaded and saved as BTC_2023.csv in desired format.")
+print("BTC data downloaded and saved as BTC_2023.csv in desired format.")
 print(btc.head())
